@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.navbar-custom {
+  background-color: black;  
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white !important;
+}
+
+.navbar-custom .navbar-brand .fa-apple {
+  font-size: 1.75rem; /* Adjust the size as needed */
+  margin-right: 2px;
+  vertical-align:text-bottom/* Align the icon with the text */
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Home Page Styles */
+.homepage {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.homepage h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.homepage p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.homepage .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* About Page Styles */
+.aboutpage {
+  background-color: #e9ecef;
+  padding: 50px 0;
+}
+
+.aboutpage h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.aboutpage p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.aboutpage .card {
+  margin-bottom: 20px;
+}
+
+/* Service Page Styles */
+.servicepage {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.servicepage h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.servicepage p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.servicepage .card {
+  margin-bottom: 20px;
+}
+
+.servicepage .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.servicepage .list-unstyled li {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+/* Contact Page Styles */
+.contactpage {
+  background-color: #e9ecef;
+  padding: 50px 0;
+}
+
+.contactpage h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contactpage p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.contactpage .form-control {
+  margin-bottom: 15px;
+}
+
+.contactpage .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}

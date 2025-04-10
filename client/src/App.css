@@ -1,0 +1,30 @@
+/* Ensure the body and html take up the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  margin-bottom: 15px; /* Add margin at the bottom of the main content to create space */
+}
+
+footer {
+  background-color: #000; /* Adjust as needed */
+  color: #fff; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+  text-align: center; /* Adjust as needed */
+  margin-top: auto;
+}

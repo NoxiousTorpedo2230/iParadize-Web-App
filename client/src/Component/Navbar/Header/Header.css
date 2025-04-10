@@ -1,0 +1,247 @@
+.header-navbar {
+  background-color: #000000;
+  color: #f5f5f5;
+  border-bottom: 2px solid rgba(245, 245, 245, 0.1);
+  display: flex;
+  align-items: center;
+
+}
+
+.header-navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  vertical-align: bottom;
+}
+
+.header-brand .header-icon {
+  font-size: 30px;
+  color: #f5f5f5;
+  vertical-align: middle;
+}
+
+
+.header-search .header-search-input {
+  background-color: #1c1c1c;
+  border: none;
+  color: #f5f5f5;
+  border-radius: 20px 0 0 20px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.header-search .header-search-input::placeholder {
+  color: #cccccc;
+}
+
+.header-search .header-search-btn {
+  background-color: #333333;
+  border: none;
+  color: #f5f5f5;
+  border-radius: 0 20px 20px 0;
+  padding: 0.5rem 1rem;
+}
+
+
+.header-dropdown-toggle,
+.header-icon-btn {
+  background-color: black !important;
+  border: none !important;
+  color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.rem;
+  outline: none;
+  box-shadow: none;
+}
+
+.header-icon-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.header-dropdown-menu {
+  background-color: #333333 !important; 
+  border: none;
+  border-radius: 8px;
+  max-width: 250px;
+  word-wrap: break-word;
+  padding: 10px 0;
+}
+
+.header-dropdown-menu .dropdown-item {
+  color: #ffffff; 
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.header-dropdown-menu .dropdown-item:hover {
+  background-color: #ffffff;
+  color: #333333; 
+}
+
+.header-dropdown-menu a {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.header-badge {
+  position: absolute;
+  top: -4px;
+  right: -12px;
+  background-color: white;
+  color: black;
+  font-size: 0.5rem;
+  font-weight: bold;
+  border-radius: 40%;
+  padding: 3px 6px;
+  border: 1px solid black;
+  line-height: 1;
+  z-index: 10;
+}
+
+.no-caret::after {
+  display: none !important;
+} 
+
+ @media (max-width: 992px) {
+
+  .header-navbar {
+      flex-direction: column;
+  }
+
+  .header-navbar .navbar-nav {
+      flex-direction: column;
+      align-items: stretch;
+      margin-left: 0;
+  }
+
+  .header-navbar .navbar-nav > * {
+      margin: 0.5rem 0;
+  }
+
+  .header-search {
+      margin: 0.5rem 0;
+      margin-right: 0.5rem 0;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .icon {
+      width: 35px;
+      height: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon {
+      width: 30px;
+      height: 30px;
+  }
+
+  .header-name {
+      font-size: 1.2rem;
+  }
+
+  .header-icon {
+      font-size: 1.5rem;
+  }
+
+  .header-search-input {
+      font-size: 0.9rem;
+  }
+
+  .header-icon-btn {
+      font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon {
+      width: 25px;
+      height: 25px;
+  }
+
+  .header-name {
+      font-size: 1rem;
+  }
+
+  .header-search-input {
+      font-size: 0.8rem;
+      align-items: center;
+  }
+}
+
+.mobile-nav-dropdown {
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.mobile-nav-dropdown .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #333333;
+  color: #f5f5f5;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.mobile-nav-dropdown .dropdown-toggle.no-caret::after {
+  display: none !important;
+}
+
+.mobile-nav-dropdown .dropdown-toggle:hover {
+  background-color: #444444;
+}
+
+.mobile-nav-dropdown .dropdown-menu {
+  background-color: #333333;
+  border: none;
+  width: 100%;
+}
+
+.mobile-nav-dropdown .dropdown-item {
+  color: #f5f5f5;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.mobile-nav-dropdown .dropdown-item:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.mobile-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: white;
+  color: black;
+  font-size: 0.6rem;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 3px 6px;
+  line-height: 1;
+}
+
+@media (max-width: 992px) {
+  .header-navbar .navbar-nav {
+    width: 100%;
+  }
+
+  .mobile-nav-dropdown {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+

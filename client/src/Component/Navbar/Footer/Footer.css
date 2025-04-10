@@ -1,0 +1,123 @@
+.footer {
+    background-color: #000000 ;
+    color: #ffffff; 
+    padding: 15px 20px; 
+    text-align: center;
+  }
+  
+  .footer h5 {
+    font-size: 1.25rem; 
+    font-weight: bold;
+    color: whitesmoke; 
+  }
+  
+  .footer p,
+  .footer ul {
+    font-size: 0.9rem; 
+    color: #dddddd; 
+  }
+  
+  .footer a {
+    color: #ffffff; 
+    transition: color 0.3s, text-decoration 0.3s;
+  } 
+  
+  .footer ul {
+    padding-left: 0; 
+    list-style: none; 
+  }
+  
+  .footer ul li {
+    margin-bottom: 0.5rem; 
+  }
+  
+  .footer .form-control {
+    background: #333333; 
+    border: none;
+    color: #ffffff;
+    border-radius: 20px; 
+    padding: 0.8rem 1rem; 
+  }
+  
+  .footer .form-control::placeholder {
+    color: #aaaaaa; 
+  }
+  
+  .footer button {
+    background-color: whitesmoke; 
+    border: none;
+    color: #181818;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 0.8rem 1rem;
+  }
+  
+  .footer button:hover {
+    background-color: whitesmoke; 
+  }
+  
+  .footer .small {
+    font-size: 0.9rem;
+    line-height: 1.6; 
+  }
+  
+  .footer .fa-map-marker-alt,
+  .footer .fa-phone,
+  .footer .fa-envelope {
+    color: whitesmoke;
+  }
+  
+  .footer .fa-facebook-f,
+  .footer .fa-twitter,
+  .footer .fa-instagram,
+  .footer .fa-linkedin {
+    font-size: 1rem; 
+  
+    transition: color 0.3s, transform 0.3s; 
+  }
+  
+  .footer .fa-facebook-f:hover {
+    color: #1877f2;
+  }
+  
+  .footer .fa-twitter:hover {
+    color: #1da1f2; 
+  }
+  
+  .footer .fa-instagram:hover {
+    color: #e4405f;
+  }
+  
+  .footer .fa-linkedin:hover {
+    color: #0a66c2;  
+  } 
+  
+  .footer .fa-facebook-f,
+  .footer .fa-twitter,
+  .footer .fa-instagram,
+  .footer .fa-linkedin {
+  
+    border-radius: 50%;
+    background-color: #222222;
+  }
+  
+  .footer .fa-facebook-f:hover,
+  .footer .fa-twitter:hover,
+  .footer .fa-instagram:hover,
+  .footer .fa-linkedin:hover {
+    background-color: rgba(249, 202, 36, 0.1); 
+  }
+  
+  
+  .footer .border-top {
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);  
+  }
+  
+  .footer .mb-0 {
+    font-size: 0.8rem; 
+    
+    color: whitesmoke;
+  }
+  
+  
